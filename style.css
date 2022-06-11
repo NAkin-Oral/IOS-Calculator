@@ -67,7 +67,8 @@ hr {
   width: 100%;
 }
 
-.calculator .screen {
+.calculator .screen,
+.calculator .ex-screen {
   display: flex;
   justify-content: end;
   align-items: flex-end;
@@ -239,7 +240,8 @@ hr {
     font-size: 1.7rem;
   }
 
-  .calculator .screen {
+  .calculator .screen,
+  .calculator .ex-screen {
     display: flex;
     justify-content: end;
     align-items: flex-end;
